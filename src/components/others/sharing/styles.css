@@ -1,0 +1,18 @@
+.sharing-form {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 12px 24px 0;
+}
+
+.sharing-table {
+  padding: 0 24px;
+}
+
+.custom-antd-table .ant-table-tbody > tr > td,
+.custom-antd-table .ant-table-thead > tr > th {
+  padding: 8px;
+  font-size: 14px;
+}

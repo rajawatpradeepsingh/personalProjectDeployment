@@ -1,0 +1,26 @@
+.crumbs-container {
+   color: var(--tertiary);
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+}
+
+.crumbs-container.header {
+   font-size: 20px;
+}
+
+.last-crumb {
+   color: var(--primary);
+   font-weight: 600;
+}
+
+.clickable:hover {
+   color: var(--secondary);
+   cursor: pointer;
+}
+
+.crumb-icon {
+   font-size: 15px;
+   margin: 0 5px;
+}

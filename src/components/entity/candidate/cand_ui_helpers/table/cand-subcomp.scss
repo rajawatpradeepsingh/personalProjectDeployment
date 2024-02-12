@@ -1,0 +1,97 @@
+.updt-btns {
+   cursor: pointer;
+   text-align: center;
+   padding: 2px;
+   border: 1px solid var(--muted);
+   border-radius: 6px;
+   transition: all ease-in-out 0.5s;
+
+   &:hover {
+      border-color: var(--secondary);
+      color: var(--secondary);
+   }
+}
+
+.select-popover-btns {
+   display: flex;
+   width: 100%;
+   justify-content: flex-end;
+   margin-top: 10px;
+
+   .popover-btn {
+      padding: 0 5px;
+      text-align: center;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &.cancel {
+         background-color: white;
+         border: 1px solid var(--error);
+         color: var(--error);
+         margin-right: 10px;
+         opacity: 0.4;
+
+         &:hover {
+            opacity: 1;
+         }
+      }
+
+      &.save {
+         background-color: var(--secondary);
+         color: white;
+         border: none;
+         padding: 0 10px;
+
+         &:hover {
+            background-color: var(--primary);
+         }
+      }
+   }
+}
+
+.table-pill {
+   padding: 5px;
+   border-radius: 6px;
+   cursor: pointer;
+   background-color: var(--secondary-pill);
+   border: 1px solid var(--secondary);
+   color: var(--secondary);
+   font-weight: 600;
+   text-transform: lowercase;
+   font-size: 14px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+
+   &.active {
+      background-color: var(--success-pill);
+      border-color: var(--success);
+      color: var(--success);
+   }
+   &.readytobemarketed {
+      background-color: var(--success-pill);
+      border-color: var(--success);
+      color: var(--success);
+   }
+   &.onboarded {
+      background-color: var(--success-pill);
+      border-color: var(--success);
+      color: var(--success);
+   }
+
+   &.hold {
+      background-color: var(--warning-pill);
+      color: var(--warning);
+      border-color: var(--warning);
+   }
+   &.passive {
+      background-color: var(--muted);
+      color: var(--tertiary);
+      border-color: var(--tertiary);
+   }
+   &.closed {
+      background-color: var(--muted);
+      color: var(--tertiary);
+      border-color: var(--tertiary);
+   }
+}

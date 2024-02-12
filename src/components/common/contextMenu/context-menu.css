@@ -1,0 +1,32 @@
+.context-container {
+  padding: 8px 16px;
+  font-family: sans-serif;
+  font-size: 12px;
+  position: absolute;
+  min-width: 180px;
+  border-radius: 3px;
+  background-color: rgb(5, 2, 51);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.context-caption {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.context-item:hover {
+  background-color: rgb(43, 43, 49);
+  cursor: pointer;
+}
+
+.context-item-data {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+

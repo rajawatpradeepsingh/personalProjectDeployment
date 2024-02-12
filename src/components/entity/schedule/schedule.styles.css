@@ -1,0 +1,28 @@
+.schedule-container {
+   position: relative;
+}
+
+.record-details-container {
+   width: 100%;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.record-date-time-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   font-size: 15px;
+}
+
+.record-additional {
+   margin: 20px 30px;
+   display: flex;
+   flex-direction: column;
+   font-size: 15px;
+}
+
+.record-url {
+   color: var(--secondary);
+}

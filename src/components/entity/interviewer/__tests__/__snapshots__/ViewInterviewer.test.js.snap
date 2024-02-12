@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`axios.get interviewers is successful matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    class="comp-content"
+  >
+    <div
+      class="comp-header"
+    >
+      <h1>
+        Interviewers
+      </h1>
+    </div>
+    <table
+      class="interviewerTable"
+    >
+      <thead>
+        <tr>
+          <th
+            class="muted"
+          >
+            <button
+              class="list-delete"
+              data-testid="int-delete"
+              disabled=""
+            >
+              <svg
+                class="trashcan"
+                data-testid="trash-icon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M112 112l20 320c.95 18.49 14.4 32 32 32h184c17.67 0 30.87-13.51 32-32l20-320"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+                <path
+                  d="M80 112h352"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                />
+                <path
+                  d="M192 112V72h0a23.93 23.93 0 0124-24h80a23.93 23.93 0 0124 24h0v40m-64 64v224m-72-224l8 224m136-224l-8 224"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                />
+              </svg>
+            </button>
+          </th>
+          <th
+            class="sr-only"
+          >
+            Edit
+          </th>
+          <th
+            class="cell-text"
+          >
+            Name
+          </th>
+          <th
+            class="cell-text"
+          >
+            Email
+          </th>
+          <th
+            class="cell-int"
+          >
+            Contact #
+          </th>
+          <th
+            class="cell-text"
+          >
+            Location
+          </th>
+          <th
+            class="cell-text"
+          >
+            Interview Skills
+          </th>
+          <th
+            class="cell-int"
+          >
+            Experience
+          </th>
+          <th
+            class="cell-text"
+          >
+            Current Project
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="table-row"
+        >
+          <td
+            class="btn-change"
+          >
+            <input
+              class="check"
+              type="checkbox"
+            />
+          </td>
+          <td
+            class="btn-change"
+          >
+            <button
+              class="editBtn"
+              data-testid="edit-btn"
+              id="1"
+              intid="1"
+            />
+          </td>
+          <td
+            class="cell-text"
+          >
+            John Doe
+          </td>
+          <td
+            class="cell-text"
+          >
+            test@test.com
+          </td>
+          <td
+            class="cell-int"
+          >
+            +1(000) 000-0000
+          </td>
+          <td
+            class="int-location"
+          >
+             
+          </td>
+          <td
+            class="cell-text"
+          >
+            testing
+          </td>
+          <td
+            class="cell-int"
+          >
+            3 year(s)
+          </td>
+          <td
+            class="cell-text"
+          >
+            gap
+          </td>
+        </tr>
+        <tr
+          class="table-row"
+        >
+          <td
+            class="btn-change"
+          >
+            <input
+              class="check"
+              type="checkbox"
+            />
+          </td>
+          <td
+            class="btn-change"
+          >
+            <button
+              class="editBtn"
+              data-testid="edit-btn"
+              id="2"
+              intid="2"
+            />
+          </td>
+          <td
+            class="cell-text"
+          >
+            Jane Doe
+          </td>
+          <td
+            class="cell-text"
+          >
+            test2@test.com
+          </td>
+          <td
+            class="cell-int"
+          >
+            +1(000) 222-2222
+          </td>
+          <td
+            class="int-location"
+          >
+             
+          </td>
+          <td
+            class="cell-text"
+          >
+            technical
+          </td>
+          <td
+            class="cell-int"
+          >
+            10 year(s)
+          </td>
+          <td
+            class="cell-text"
+          >
+            rcp
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="pagination-row"
+    />
+  </div>
+</DocumentFragment>
+`;

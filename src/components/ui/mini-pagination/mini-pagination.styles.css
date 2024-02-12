@@ -1,0 +1,10 @@
+.mini-pagination-container {
+   width: 100%;
+   margin: 10px;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.ant-pagination-total-text {
+   margin-right: 20px;
+}

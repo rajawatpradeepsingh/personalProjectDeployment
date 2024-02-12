@@ -1,0 +1,25 @@
+.application-settings-content-container {
+   padding: 10px;
+   overflow: auto;
+   max-height: 100%;
+}
+
+.app-settings-section-header {
+   font-size: 16px;
+   color: var(--secondary);
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+.ant-collapse-content-box {
+   max-height: 275px;
+   overflow: auto;
+}
+
+.app-settings-panel-header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+

@@ -1,0 +1,52 @@
+.notification-record-container {
+   width: 100%;
+   border-bottom: 1px solid rgba(0,0,0,0.1);
+   padding-bottom: 4px;
+   margin-bottom: 8px;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+
+   &:last-of-type {
+      border-bottom: none;
+   }
+
+   &:hover {
+      color: var(--secondary);
+   }
+
+   .record-heading {
+      margin-bottom: 0;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      position: relative;
+
+      .unread-record-bubble {
+         position: absolute;
+         background-color: var(--secondary);
+         width: 7px;
+         height: 7px;
+         border-radius: 100%;
+         left: -12px;
+         top: calc(50% - 4px);
+      }
+   }
+
+   .record-message {
+      font-size: 14px;
+      color: #575757;
+   }
+
+   .record-tags-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .record-tag {
+         font-size: 11px;
+         color: var(--tertiary);
+         text-transform: uppercase;
+      }
+   }
+
+}

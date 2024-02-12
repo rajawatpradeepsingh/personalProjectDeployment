@@ -1,0 +1,23 @@
+.switch-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: fit-content;
+   margin: 10px;
+
+   .switch-label {
+      font-weight: 200;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+   }
+
+   .switch {
+      margin: 0 10px;
+   }
+
+   .ant-switch-checked {
+      background: var(--success);
+   }
+
+}

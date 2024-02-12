@@ -1,0 +1,175 @@
+.table-component-container {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.tbl-container {
+  overflow: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid var(--low-opacity);
+}
+
+.table-col-header {
+  color: var(--tertiary);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 10px 10px 5px;
+  background-color: var(--muted);
+  transition: all 0.5s ease;
+  cursor: default;
+}
+
+.table-col-header.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  white-space: nowrap;
+}
+
+.col-header-sortable {
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.table-col-header.clickable {
+  cursor: pointer;
+}
+.table-col-header.clickable:hover {
+  color: var(--success);
+}
+
+.tbl-header-btn {
+  text-align: center;
+}
+
+.table-body-row {
+  background-color: #fff;
+  border-bottom: 1px solid var(--low-opacity);
+  transition: background-color 0.3s ease;
+}
+
+.role-table{
+  background-color: #fff;
+  border-bottom: 1px solid var(--low-opacity);
+  transition: background-color 0.3s ease;
+}
+
+.table-body-row.expanded {
+  border-left: 2px solid var(--secondary);
+}
+
+.table-body-row.child-row {
+  margin: 5px 0;
+  background-color: var(--secondary-low);
+  border-bottom: 1px solid var(--low-opacity);
+  border-left: 2px solid var(--secondary);
+}
+
+.table-body-row.child-row.text {
+  background-color: transparent;
+  border-right: 2px solid var(--secondary);
+}
+
+.table-body-row:hover {
+  background-color: var(--success-low);
+}
+
+.table-cell {
+  padding: 10px 15px 10px 5px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+  color: #000;
+  cursor: default;
+  text-align: center;
+}
+
+.table-cell.centered {
+  text-align: center;
+}
+
+.table-cell.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  white-space: nowrap;
+  color: var(--secondary);
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.table-cell.center {
+  text-align: center;
+}
+
+.cell{
+  padding: 10px 15px 10px 5px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 18px;
+  color: #000;
+  cursor: default;
+  border-right: .5px solid lightgrey;
+  text-align: center;
+}
+
+.table-cell.clickable {
+  color: var(--secondary);
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.table-cell.clickable.red {
+  color: var(--error);
+}
+
+.table-cell.clickable:hover {
+  color: var(--primary);
+}
+
+.table-cell-short {
+  max-width: 80px;
+  white-space: normal;
+}
+
+.table-link {
+  color: var(--secondary);
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+.table-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.sort-icon {
+  color: var(--success);
+  font-size: 20px;
+}
+
+.no-data-txt {
+  padding: 10px;
+  font-size: 15px;
+  color: var(--warning);
+}
+
+.actions-pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}

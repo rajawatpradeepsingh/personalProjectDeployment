@@ -1,0 +1,48 @@
+.table-schedule-display {
+   display: flex;
+   flex-direction: column;
+
+   .date {
+      font-weight: 700;
+      color: var(--success);
+
+      &.past {
+         color: var(--tertiary);
+      }
+   }
+
+   .time {
+      font-size: 12px;
+      font-weight: 500;
+      white-space: nowrap;
+
+      &.past {
+         color: var(--tertiary);
+      }
+   }
+}
+
+.table-job-details {
+   display: flex;
+   flex-direction: column;
+
+   .job-title {
+      font-weight: 500;
+   }
+
+   .client {
+      font-size: 12px;
+   }
+
+   .job-type {
+      font-size: 12px;
+   }
+}
+
+#int-child-table {
+   th {
+      color: rgba(0,0,0,0.15);
+      font-size: 12px;
+      padding: 0 8px;
+   }
+}

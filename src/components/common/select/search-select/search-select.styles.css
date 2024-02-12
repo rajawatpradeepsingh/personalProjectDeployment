@@ -1,0 +1,97 @@
+.search-select-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   margin-right: 12px;
+   margin-bottom: 12px;
+   position: relative;
+}
+
+.search-select-label,
+.required {
+   font-weight: 200;
+   font-size: 12px;
+   text-transform: uppercase;
+   color: rgba(0, 0, 0, 0.8);
+}
+
+.required {
+   color: var(--secondary);
+   font-size: 14px;
+}
+
+.search-input {
+   border: 1px solid var(--tertiary);
+   border-radius: 8px;
+   padding: 8px;
+   width: 250px;
+   margin-top: 5px;
+}
+
+.search-select-menu {
+   position: absolute;
+   top: calc(100% + 5px);
+   left: 0;
+   box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.1);
+   border: 1px solid var(--muted);
+   border-radius: 5px;
+   max-height: 200px;
+   width: 100%;
+   overflow-x: auto;
+   z-index: 10;
+   background-color: #fff;
+   padding: 8px;
+}
+
+.search-select-menu-list-item {
+   cursor: pointer;
+   padding: 2px 5px;
+   transition: all 0.3s ease;
+}
+
+.search-select-menu-list-item:hover {
+   background-color: var(--success-low);
+}
+
+.search-icon {
+   position: absolute;
+   bottom: 7px;
+   right: 25px;
+   opacity: 0.5;
+}
+
+.clear-icon {
+   position: absolute;
+   bottom: 7px;
+   right: 25px;
+   color: var(--error);
+   opacity: 0.5;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+.clear-icon-content {
+   color: var(--error);
+   opacity: 0.6;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+.clear-icon:hover .clear-icon-content:hover {
+   opacity: 1;
+}
+
+.toggle-menu-arrow {
+   position: absolute;
+   bottom: 8px;
+   right: 2px;
+   padding: 0 3px;
+   border-left: 1px solid var(--muted);
+}
+
+.menu-arrow {
+   color: #000;
+   font-size: 11px;
+   cursor: pointer;
+}

@@ -1,0 +1,133 @@
+.calendarEndDate{
+    background-color: white;
+}
+
+.closeButton{
+    float: right;
+    position: relative; 
+    display: flex;
+}
+
+.table-style{
+    margin-left: 50px;
+    border-style: solid;
+    border-color:gainsboro;
+}
+
+.labelText {
+    color: rgb(22, 7, 104);
+    font-size: 14px;
+  }
+
+.calendar-table {
+    width: 400px;
+    border: 1px solid rgb(57, 57, 61, .3);
+}
+
+.add-calendar-modal {
+    width: 300px;
+}
+
+.calendar-container {
+    width: 400px;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.calendar-right-container {
+    width: 250px;
+    margin-top: 1em;
+}
+
+.add-calendar-title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: -.3em;
+}
+
+.delete-calendar-week-modal {
+  top: 25% !important;
+  width: 300px;
+  height: 210px;
+}
+.delete-week-yes {
+  border: none;
+  background-color: rgb(52, 102, 52);
+  color: white;
+  padding: 1em;
+  border-radius: 1em;
+  font-weight: 800;
+  font-size: 17px;
+  margin: .5em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.delete-week-no {
+  border: none;
+  background-color: rgb(228, 87, 87);
+  color: white;
+  padding: 1em;
+  border-radius: 1em;
+  font-weight: 800;
+  font-size: 17px;
+  margin: .5em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.delete-week-yes:hover, .delete-week-no:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.delete-modal-title {
+  font-size: 15px;
+  font-weight: 550;
+}
+
+#calShow > input {
+  pointer-events: initial;
+  opacity: initial;
+  position: initial;
+}
+
+#calShow {
+  display: flex;
+}
+
+/* .random{
+  color: blue;
+} */
+
+.react-datepicker__day--disabled, .react-datepicker__month-text--disabled, .react-datepicker__quarter-text--disabled {
+  cursor: default;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.react-datepicker__day:not(.react-datepicker__day--disabled) {
+    color: white;
+    display: inline-block;
+    width: 1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0.166rem;
+    background: rgb(39, 188, 237);
+    border-radius: 5px
+    ;
+}
+
+/* .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range {
+  border-radius: 0.3rem;
+  background-color: midnightblue;
+} */
+
+label{
+  font-size: 14px;
+  color: #9a9cab;
+  letter-spacing: 1px;
+}
+
+.picker{
+  flex-direction:row;
+  justify-content:space-around;
+}

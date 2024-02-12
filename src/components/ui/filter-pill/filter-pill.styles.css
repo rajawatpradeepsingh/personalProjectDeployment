@@ -1,0 +1,22 @@
+.filter-pill-container {
+   font-size: 12px;
+   background-color: var(--secondary-low);
+   width: fit-content;
+   height: 22px;
+   padding: 0 5px;
+   border-radius: 20px;
+   border: 1px solid var(--secondary);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+   margin: 5px;
+}
+
+.filter-name {
+   text-align: center;
+   color: var(--secondary);
+   font-weight: 600;
+   line-height: 22px;
+   padding: 0 5px;
+}

@@ -1,0 +1,32 @@
+.dropdown-action-options-container {
+  top: calc(100% - 5px);
+  position: absolute;
+  z-index: 3;
+  background-color: #fff;
+  padding: 0 0 10px 0;
+  border: 1px solid var(--secondary-muted);
+  border-radius: 10px;
+  color: var(--secondary);
+  font-size: 15px;
+  text-transform: none;
+  overflow: hidden;
+}
+.dropdown-action-options-container h4 {
+  color: var(--primary);
+  background-color: var(--secondary-muted);
+}
+
+.dropdown-action-options-row {
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dropdown-action-options-row:hover {
+  color: var(--primary);
+  background-color: var(--secondary-low);
+  transform: scale(1.05);
+}
+
+.dropdown-action-options-action {
+  padding: 5px 15px;
+}

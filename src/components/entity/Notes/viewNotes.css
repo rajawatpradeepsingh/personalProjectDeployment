@@ -1,0 +1,91 @@
+.notes-bar-container {
+  position: relative;
+}
+  
+.unread-bubble {
+  position: absolute;
+  left: 22px;
+  top: -6px;
+  width: 23px;
+  height: 23px;
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--warning);
+  border-radius: 100%;
+  border: 1px solid #fff;
+  color: white;
+  font-weight: 600;
+}
+
+.note-list-container {
+  max-height: 95%;
+  overflow-y: auto;
+}
+
+.note-container {
+  width: 100%;
+  margin: 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--muted);
+}
+
+.note-container:first-of-type {
+  margin-top: 32px;
+}
+
+.note-delete-btn-container {
+  margin-top: 10px;
+}
+
+.note-container:last-of-type {
+  border-bottom: none;
+}
+
+.note-header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.note-title {
+  margin: 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.note-title:hover {
+  color: var(--secondary);
+}
+
+.note-date {
+  font-size: 11px;
+  color: var(--tertiary);
+  margin-left: 28px;
+}
+
+.note-body {
+  margin-left: 28px;
+}
+  
+.notes-pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border-top: 1px solid var(--muted);
+  padding-top: 8px; */
+  width: 100%;
+}
+
+  
+  

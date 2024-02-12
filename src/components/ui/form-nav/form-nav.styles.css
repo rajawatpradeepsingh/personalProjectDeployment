@@ -1,0 +1,30 @@
+.form-nav-container {
+   padding: 10px;
+   position: relative;
+   width: 100%;
+   height: 95%;
+}
+
+.ant-steps-navigation.ant-steps {
+   margin-bottom: 5px;
+}
+
+.steps-content-container {
+   height: 100%;
+   overflow-y: auto;
+   width: 100%;
+}
+
+.steps-action {
+   width: 100%;
+   left: 0;
+   top: 98%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   position: absolute;
+   border-top: 1px solid var(--muted);
+   padding: 8px 0;
+   background-color: #fff;
+}

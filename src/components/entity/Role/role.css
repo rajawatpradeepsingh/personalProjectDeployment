@@ -1,0 +1,48 @@
+/* view roles styles */
+.roles-pagination {
+  width: 55vw;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0 0 30px  
+}
+/* end view roles styles */
+
+
+/* create role styles */
+.role-form {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin: 10px 0 0 40px;
+}
+
+.role-alert {
+  width: 95%;
+  margin: 15px 0 20px 35px;
+  align-self: flex-start;
+}
+
+.role-alert a {
+  color: midnightblue;
+  letter-spacing: 1px;
+  margin: 0 0 0 5px;
+  font-weight: 600;
+}
+
+.role-btns {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.ant-switch-checked {
+  background: var(--success);
+}
+/* end create role styles */
+
+
+
+

@@ -1,0 +1,117 @@
+.notification-bar-container {
+  margin: 0 12px;
+  position: relative;
+}
+
+.bubble {
+  position: absolute;
+  left: 27px;
+  top: -10px;
+  height: 20px;
+  width: fit-content;
+  padding: 2px 6px;
+  font-size: 10px;
+  color: white;
+  background-color: var(--warning);
+  border-radius: 100%;
+}
+
+.notifications-large-container {
+  overflow: auto;
+  max-height: 700px;
+  padding: 10px;
+  padding-right: 25px;
+  margin-bottom: 30px;
+}
+
+.notification-pagination-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.notifications-pagination-border {
+  position: absolute;
+  height: 1px;
+  width: 660px;
+  background-color: var(--muted);
+  top: -30px;
+  left: calc(50% - 330px);
+}
+
+.ant-drawer-body {
+  padding-top: 0;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.ant-drawer-title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.notification-filter-container {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notifications-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.notifications-menu::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: var(--muted);
+  bottom: 0;
+  left: -2px;
+}
+
+.notifcation-menu-tab {
+  position: relative;
+  cursor: pointer;
+}
+
+.notifcation-menu-tab.focus {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.notifcation-menu-tab::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: calc(100% + 5px);
+  background-color: transparent;
+  bottom: -5px;
+  left: -2px;
+  transition: all 0.5s;
+}
+
+.notifcation-menu-tab.focus::before {
+  background-color: var(--secondary);
+}
+
+.notifcation-row-container {
+  display: flex;
+  flex-direction: row;
+}
+.notification-row-elements {
+  padding: 0 10px;
+  color: var(--warning);
+}

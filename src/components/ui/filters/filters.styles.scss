@@ -1,0 +1,67 @@
+.filters-container {
+   position: relative;
+
+   .filter-menu-container {
+      position: absolute;
+      background-color: white;
+      z-index: 2;
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+      border: 1px solid var(--muted);
+      padding: 10px;
+      top: calc(100% + 5px);
+      left: 5px;
+      min-height: 350px;
+      max-height: 550px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: auto;
+
+      .filter-actions {
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+         width: 100%;
+         margin-bottom: 10px;
+
+         .filter-heading {
+            font-weight: 600;
+            font-size: 16px;
+         }
+      }
+
+      .panels-container {
+         width: 100%;
+
+         .ant-collapse-header-text {
+            font-family: 'Public Sans', sans-serif;
+            font-weight: 400;
+            letter-spacing: 1px;
+            position: relative;
+
+            &::after {
+               position: absolute;
+               content: "";
+               width: calc(100% + 42px);
+               height: 1px;
+               background-color: var(--muted);
+               top: calc(100% + 8px);
+               right: -17%;
+            }
+         }
+
+         .ant-collapse-content-box {
+            max-height: 260px;
+            overflow: auto;
+         }
+
+         .candidate-filter-pagination {
+            font-size: 10px;
+            margin-left: 35px;
+            margin-bottom: 8px;
+         }
+      }
+   }
+}

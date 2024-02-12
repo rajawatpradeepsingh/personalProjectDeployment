@@ -1,0 +1,14 @@
+.popover-trigger {
+   color: var(--success);
+   font-weight: 800;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+.popover-trigger:hover {
+   font-weight: 800;
+}
+
+.ant-popover-inner-content{
+   width: 100% ;
+}

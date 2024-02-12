@@ -1,0 +1,22 @@
+.pagination-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
+   /* margin: 15px 0; */
+}
+
+.ant-pagination-item-active {
+   border-color: var(--secondary);
+   border-radius: 5px;
+}
+
+.ant-pagination-item-active a {
+   color: var(--secondary);
+}
+
+.ant-pagination-total-text {
+   color: var(--tertiary);
+}
+

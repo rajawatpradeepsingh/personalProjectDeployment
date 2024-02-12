@@ -1,0 +1,21 @@
+.dashboard-overview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.current-date-time {
+    font-size: 20px;
+    background-color: white;
+    padding: 4px 32px;
+    border-radius: 6px;
+    color: var(--secondary);
+}
+
+.gear-icon {
+    margin-left: 12px;
+    color: var(--tertiary);
+    font-size: 24px;
+}

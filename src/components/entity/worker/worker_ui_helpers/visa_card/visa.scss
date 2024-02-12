@@ -1,0 +1,15 @@
+.visa-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.1);
+    background-color: rgba(26, 64, 255, 0.143);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.05);
+    }
+}

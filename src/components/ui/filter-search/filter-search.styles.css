@@ -1,0 +1,37 @@
+.filter-search-container {
+   margin: 5px 10px;
+   position: relative;
+}
+
+.filter-search-input {
+   border: 1px solid var(--tertiary);
+   width: 100%;
+   padding: 3px 5px;
+   border-radius: 5px;
+}
+
+.clear-icon-filters {
+   position: absolute;
+   bottom: 3px;
+   right: 7px;
+}
+
+.add-option-text {
+   color: var(--secondary);
+   cursor: pointer;
+   transition: all 0.3s ease;
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: var(--secondary-low);
+   padding: 2px 8px;
+   border: 2px solid var(--secondary);
+   border-radius: 0 5px 5px 0;
+   text-transform: uppercase;
+
+}
+
+.add-option-text:hover {
+   color: #fff;
+   background-color: var(--secondary);
+}

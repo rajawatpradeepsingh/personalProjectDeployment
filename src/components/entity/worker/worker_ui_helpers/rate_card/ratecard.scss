@@ -1,0 +1,95 @@
+
+.rate-card {
+   background-color: rgba(26, 64, 255, 0.143);
+     padding: 16px;
+    margin-bottom: 8px;
+    min-width: 200px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+ 
+    &:hover {
+       transform: translateY(-3px);
+    }
+ 
+    .ratecardtitle{
+        font-size: 16px;
+        color: rgb(128, 128, 242)
+    }
+    .rate-card-basic{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+//     .detail-container {
+//         margin-top: 4px;
+//         display: flex;
+//         flex-direction: column;
+//         padding-right: 50px;
+    
+//         .label {
+//            color: var(--tertiary);
+//         }
+//         span {
+//             color: rgba(0, 0, 0, 0.7);
+//             font-size: 12px;
+//             white-space: nowrap;
+//          }
+//      }
+
+//      .detail-container1 {
+//         margin-top: 4px;
+//         display: flex;
+//         flex-direction: column;
+//         padding-right: 50px;
+    
+//         .label {
+//            color: var(--tertiary);
+//         }
+//         span {
+//             color: rgba(0, 0, 0, 0.7);
+//             font-size: 12px;
+//             white-space: nowrap;
+//          }
+//      }
+//      .detail-container2 {
+//         margin-top: 4px;
+//         display: flex;
+//         flex-direction: column;
+    
+//         .label {
+//            color: var(--tertiary);
+//         }
+//         span {
+//             color: rgba(0, 0, 0, 0.7);
+//             font-size: 12px;
+//             white-space: nowrap;
+//          }
+//      }
+
+//     .rate-status{
+//         font-size: 13px;
+//         margin-top: 4px;
+//          display: flex;
+//          flex-direction: row;
+      
+//    }
+//    .rate-row{
+//     display: flex;
+//     flex-direction: row;
+//    }
+//    .rate{
+//     padding-right: 150px;
+
+//    }
+//    .rate-bill{
+//       font-size: 13px;
+//       margin-top: 4px;
+//        display: flex;
+//        flex-direction: row;
+    
+//  }
+ }

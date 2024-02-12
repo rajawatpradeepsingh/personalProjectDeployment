@@ -1,0 +1,92 @@
+.interviewer-select-container {
+   padding-right: 10px;
+}
+
+.info-label {
+   color: rgba(52, 50, 184, 0.5);
+   font-size: 12px;
+   text-align: right;
+   margin: 2px 40px;
+}
+
+.progress-circle-right {
+   width: 100%;
+   margin: 20px 0;
+}
+
+.times {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-right: 30px;
+
+}
+
+.activity-interview-form {
+
+   border: 2px solid var(--secondary-muted);
+   padding: 20px 20px 20px 20px;
+   border-radius: 5px;
+   width: 98%;
+   margin: 5px 1%;
+   position: relative;
+   flex-direction: row;
+
+}
+
+.act-int-label {
+   position: absolute;
+   font-size: 15px;
+   font-weight: 800;
+   background-color: #fff;
+   z-index: 2;
+   text-transform: uppercase;
+   color: var(--secondary-muted);
+   top: -5px;
+   left: -17px;
+   padding: 0 0 5px 0;
+   writing-mode: vertical-rl;
+   text-orientation: upright;
+}
+
+.align_page {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-right: 30px;
+}
+
+.align_form {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-right: 30px;
+}
+
+.type1 {
+   padding-top: 8px;
+   padding-right: 131px;
+}
+
+.type3 {
+   padding-top: 8px;
+}
+
+.type2 {
+   padding-right: 31px;
+}
+
+.clienttype1 {
+   padding-right: 131px;
+}
+
+.abc {
+   width: 600px;
+}
+
+.smallest-form {
+   width: 551px;
+}

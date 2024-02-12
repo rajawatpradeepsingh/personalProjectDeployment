@@ -1,0 +1,72 @@
+.small-table-container {
+   width: 100%;
+   overflow-x: auto;
+   border-radius: 6px;
+   box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.04);
+   margin: 12px 0;
+
+   .small-table {
+      width: 100%;
+
+      .small-table-headers {
+         border-bottom: 1px solid #eee;
+         background-color: rgba(0, 0, 0, 0.08);
+
+         >th {
+            white-space: nowrap;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 8px;
+            text-align: left;
+         }
+      }
+
+      .small-table-body {
+         >td {
+            padding: 4px 8px;
+            color: #484848;
+         }
+
+         .small-table-status {
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 4px;
+            border-radius: 2px;
+
+            &.applied {
+               color: black;
+               background-color: rgba(0, 0, 0, 0.1);
+            }
+
+            &.expired,
+            &.rejected {
+               color: var(--warning);
+               background-color: rgba(255, 134, 0, 0.1);
+            }
+
+            &.active {
+               color: var(--success);
+               background-color: rgba(70, 179, 125, 0.1);
+            }
+         }
+
+         .updatedon-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            :first-child {
+               font-weight: 400;
+            }
+
+            :last-child {
+               font-weight: 200;
+               font-size: 13px;
+            }
+         }
+      }
+
+   }
+
+
+}

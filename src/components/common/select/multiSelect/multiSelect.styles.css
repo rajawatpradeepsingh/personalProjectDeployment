@@ -1,0 +1,236 @@
+.multi-select {
+  /* box-sizing: content-box; */
+  width: 250px;
+  position: relative;
+  color: #333;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.multi-select-small {
+  margin: 0;
+  width: 120px;
+  margin-right: 5px;
+  height: auto;
+}
+
+.multi-select-large {
+  width: 330px;
+}
+
+.multi-select-label {
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  /* margin-top: -4px; */
+}
+
+/* .multi-select:active,
+.multi-select:focus {
+  background-color: rgba(195, 231, 213, 0.1);
+  border-radius: 3px;
+} */
+
+.multi-select-container {
+  width: 250px;
+  min-height: 42px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--tertiary);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.multi-select-container.small {
+  margin: 0;
+  padding: 0 3px;
+  min-width: 120px;
+  min-height: 30px;
+  height: 33px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.multi-select-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.multi-selections {
+  width: fit-content;
+  padding: 2px;
+}
+
+.dropdown-multi-select {
+  position: absolute;
+  padding: 1px 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--muted);
+  border-radius: 5px;
+  max-height: 120px;
+  min-height: 40px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: calc(100% + 1px);
+  z-index: 1;
+}
+
+.multi-select-option {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.multi-select-option.add-option {
+  font-weight: 600;
+  color: var(--secondary);
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.multi-select-option.add-option:hover {
+  color: var(--success);
+}
+
+.multi-select-option:hover {
+  background-color: var(--success-low);
+}
+
+.multi-select-option.no-match-option {
+  cursor: default;
+  width: 100%;
+  height: 100%;
+}
+
+.multi-select-option.no-match-option:hover {
+  font-weight: 400;
+  color: black;
+}
+
+li.multi-select-option span input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.delete-multi-select {
+  margin: 0 0 0 2px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete-multi-select:hover,
+.multi-select-signs div:hover {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.multi-selection {
+  padding: 2px 8px;
+  margin: 1px;
+  background-color: var(--secondary-low);
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  max-width: 165px;
+  word-wrap: break-word;
+}
+
+.multi-select-signs {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  min-width: 16px;
+  line-height: 20px;
+}
+.multi-select-signs div {
+  padding: 0 2px;
+  width: 15px;
+}
+.multi-rotated-arrow {
+  font-size: 24px;
+  transform: rotateX(120deg);
+  border-left: solid 1px lightgray;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/* disabled styles */
+.multi-selections:disabled {
+  background-color: transparent;
+}
+
+.multi-selections.small {
+  width: 90px;
+}
+
+.multi-select-disabled {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.clear-all-selections {
+  padding-bottom: 2px;
+  margin: 0 5px;
+  color: var(--warning);
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.clear-all-selections:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.readonly-multiselect-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+
+.readonly-label {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.readonly-multiselect-value {
+  font-weight: 200;
+  font-size: 14px;
+  width: fit-content;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.readonly-multiselect-value.empty {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}

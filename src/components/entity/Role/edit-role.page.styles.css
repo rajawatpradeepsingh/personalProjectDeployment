@@ -1,0 +1,16 @@
+.role-modal {
+  width: 400px;
+  height: 350px;
+}
+  
+.role-modal-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.ant-switch-checked {
+  background: var(--success);
+}

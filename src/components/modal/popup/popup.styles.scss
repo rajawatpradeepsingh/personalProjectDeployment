@@ -1,0 +1,49 @@
+.popup {
+  .popup-title {
+    font-family: "Public Sans", sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popup-color-success {
+    color: var(--success);
+    background-color: var(--success-low);
+  }
+  .popup-color-warning {
+    color: var(--warning);
+    background-color: var(--warning-low);
+  }
+  .popup-color-change {
+    color: var(--secondary);
+    background-color: var(--secondary-low);
+  }
+
+  .popup-details {
+    font-family: "Public Sans", sans-serif;
+    padding: 20px;
+    text-align: center;
+
+    .popup-text {
+      color: #000;
+      letter-spacing: 1px;
+      font-weight: 200;
+
+      a {
+        text-decoration: underline;
+        color: var(--success);
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .popup-btns-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+}

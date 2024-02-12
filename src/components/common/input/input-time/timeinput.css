@@ -1,0 +1,73 @@
+.time-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.time-label {
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(0,0,0, 0.8);
+}
+
+.time-input-field {
+  border: 1px solid var(--tertiary);
+  border-radius: 8px;
+  padding: 8px;
+  width: 250px;
+}
+
+.time-input-field:disabled {
+  background-color: transparent;
+  border: none;
+  padding-left: 0;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+.input-text {
+  display: flex;
+  flex-direction: row;
+  margin-top: -6px;
+}
+
+/* validation error icon styles  */
+.time-input-field:invalid::after {
+  content: "✖";
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.time-input-field:valid::after {
+  content: "✓";
+  color: green;
+}
+/* end validation error icon styles  */
+
+/* styles for old version  */
+.text-time-input {
+  margin-right: 30px;
+}
+
+.text-time-input-field {
+  width: 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(124, 124, 124);
+  padding-left: 30%;
+  padding-bottom: 6px;
+  margin-top: 15px;
+}
+
+.text-time-divider {
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(124, 124, 124);
+  padding-bottom: 6px;
+  margin-top: 15px;
+}

@@ -1,0 +1,219 @@
+.activity-container {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+   .activity-form {
+      width: 100%;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      .form-btns-container {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+      }
+   }
+
+   .activity-actions-container{
+      width: 100%;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .action-filter-container {
+         width: 500px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
+   }
+
+   .activity-job-details {
+      min-width: 150px;
+      width: fit-content;
+      background: #fff;
+      .activity-details-text {
+         display: block;
+         font-weight: 200;
+         line-height: 23px;
+         background-color: #fff;
+   
+         &.bold {
+            font-weight: 600;
+         }
+   
+         &.clickable {
+            cursor: pointer;
+   
+            &:hover {
+               color: var(--secondary);
+            }
+         }
+   
+         &.light {
+            color: var(--tertiary);
+         }
+      }
+   }
+
+   .no-data-dash {
+      width: 100%;
+      min-width: 80px;
+      display: inline-block;
+      color: var(--tertiary);
+      padding: 5px 10px;
+      text-align: center;
+   }
+
+   .activity-date {
+      position: relative;
+      width: fit-content;
+      padding: 2px 5px;
+      font-size: 12px;
+
+      &.blue {
+         background-color: var(--secondary-pill);
+         border-radius: 10px;
+      }
+
+      &.orange {
+         background-color: var(--warning-pill);
+         border-radius: 10px;
+      }
+
+      &.green {
+         background-color: var(--success-pill);
+         border-radius: 10px;
+      }
+
+      &.red {
+         background-color: var(--error-pill);
+         border-radius: 10px;
+      }
+
+      &.outline {
+         width: 100%;
+         text-align: center;
+         padding: 6px 8px 5px 8px;
+         font-size: 20px;
+         color: #555;
+      }
+
+   }
+}
+
+.popover-activity-title {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   .popover-status {
+      text-transform: capitalize;
+      font-size: 17px;
+      font-weight: 600;
+   }
+}
+
+.interview-data {
+   display: flex;
+   flex-direction: column;
+
+   .interview-round {
+      font-weight: 600;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 25px;
+   }
+   .interview-date {
+      font-weight: 400;
+   }
+   .interview-comment {
+      font-weight: 200;
+      margin-bottom: 15px;
+   }
+   .int-activity-delete {
+      width: 100%;
+      text-align: right;
+   }
+}
+
+.activity-pill {
+   margin-right: 15px;
+   font-size: 12px;
+   text-transform: uppercase;
+   font-weight: 800;
+   letter-spacing: 1px;
+}
+
+.activity-pill.blue {
+   color: var(--secondary);
+}
+
+.activity-pill.green {
+   color: var(--success);
+}
+
+.activity-pill.red {
+   color: var(--error);
+}
+
+.activity-pill.orange {
+   color: var(--warning);
+}
+
+.updateon{
+   color: blue;
+    //  margin-top: 5px;
+    //  padding: 0 5px;
+     align-self: flex-end;
+     font-size: 13px;
+     letter-spacing: 1px;
+     font-weight: 600;
+     padding-top: 100px;
+     padding-left: 100px;
+ }
+
+ .onboaded-form{
+   border: 2px solid var(--secondary-muted);
+   padding: 20px 20px 20px 20px;
+   border-radius: 5px;
+   width: 98%;
+   margin: 5px 1%;
+   position: relative;
+   flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .act-onboarding-label{
+   position: absolute;
+   font-size: 15px;
+   font-weight: 800;
+   background-color: #fff;
+   z-index: 2;
+   text-transform: uppercase;
+   color: var(--secondary-muted);
+   top: -10px;
+   //left: -17px;
+   padding: 0 0 5px 0;
+   //writing-mode: vertical-rl;
+   //text-orientation: upright;
+ }
+ .activity {
+   width: 100%;
+   padding: 0 0px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   margin-bottom: 10px;
+}

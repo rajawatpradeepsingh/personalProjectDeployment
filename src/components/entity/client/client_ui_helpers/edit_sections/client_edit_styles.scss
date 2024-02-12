@@ -1,0 +1,57 @@
+.client-jobs-container {
+   padding: 20px;
+
+   .heading {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+
+      .client-jobs-header {
+         color: var(--secondary);
+      }
+   }
+
+   .no-jobs-text {
+      color: var(--tertiary);
+   }
+
+   .job-cards-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 32px;
+   }
+
+   .pagination {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid var(--muted);
+      padding-top: 8px;
+      margin-top: 32px;
+
+      .pagination-total {
+         font-size: 14px;
+         color: var(--tertiary);
+      }
+   }
+}
+
+.client-details-container {
+   width: 100%;
+   padding: 16px;
+   display: flex;
+   flex-direction: column;
+
+   .client-details-form {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      text-align: right;
+
+   }
+}

@@ -1,0 +1,32 @@
+[
+   {
+      "id":1,
+      "username":"Test1",
+      "enabled":true,
+      "firstName":"Test",
+      "lastName":"One",
+      "phoneNumber":"",
+      "email":"test@test.com",
+      "roles":[{"id":2,"roleName":"RECRUITER"},{"id":1,"roleName":"ADMIN"}]
+   },
+   {
+      "id":2,
+      "username":"Test2",
+      "enabled":true,
+      "firstName":"Test",
+      "lastName":"Two",
+      "phoneNumber":"",
+      "email":"test2@test2.com",
+      "roles":[{"id":2,"roleName":"RECRUITER"}]
+   },
+   {
+      "id":3,
+      "username":"Test3",
+      "enabled":true,
+      "firstName":"Test",
+      "lastName":"Three",
+      "phoneNumber":"",
+      "email":"test3@test3.com",
+      "roles":[{"id":4,"roleName":"HR"},{"id":2,"roleName":"RECRUITER"}]
+   }
+]

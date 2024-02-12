@@ -1,0 +1,7 @@
+.ant-slider-track {
+   background-color: var(--secondary-muted);
+}
+
+.ant-slider-handle {
+   border-color: var(--secondary);
+}

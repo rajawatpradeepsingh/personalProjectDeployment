@@ -1,0 +1,177 @@
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  white-space: nowrap;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+
+  .icon {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+
+  &.margin-left {
+    margin-left: 12px;
+  }
+
+  &.margin-right {
+    margin-right: 12px;
+  }
+
+  &.marginX {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  &.marginY {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  &.padding {
+    padding: 4px;
+  }
+
+  &.w-full {
+    width: 100%;
+    justify-content: center;
+  }
+
+  &.w-150 {
+    width: 150px;
+    justify-content: center;
+  }
+
+  &.font-small {
+    font-size: 12px;
+  }
+
+  &.rounded {
+    border-radius: 4px;
+  }
+
+  &.main {
+    background-color: var(--secondary);
+    color: white;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.05);
+    scale: 1;
+
+    &:hover {
+      scale: 1.02;
+    }
+  }
+
+  &.transparent {
+    color: black;
+    font-weight: 600;
+
+    &.blue {
+      color: var(--secondary);
+    }
+    
+    &:hover {
+      color: var(--secondary);
+    }
+
+    &.bg-hover {
+      &:hover {
+        background-color: var(--secondary-low);
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &.reset {
+    color: var(--error);
+    background-color: transparent;
+
+    &:hover {
+      opacity: 1;
+      background-color: var(--error);
+      color: white;
+    }
+    
+    &:disabled {
+      background-color: var(--tertiary);
+      box-shadow: none;
+    }
+  }
+
+  &.submit {
+    background-color: var(--success);
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:disabled {
+      background-color: var(--tertiary);
+      box-shadow: none;
+    }
+  }
+
+  &.outlined {
+    border: 1px solid var(--muted);
+    background-color: transparent;
+    color: black;
+
+    &.red {
+      color: var(--error);
+      border-color: var(--error);
+
+      &:hover {
+        color: white;
+        background-color: var(--error);
+        border-color: var(--error);
+      }
+    }
+
+    &:hover {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  }
+
+  &.icon {
+    font-size: 20px;
+
+    &.small {
+      font-size: 16px;
+    }
+
+    &:hover {
+      color: var(--secondary);
+
+      &.red {
+        color: var(--error);
+      }
+    }
+  }
+
+  
+  &:disabled {
+    cursor: not-allowed;
+    background-color: transparent;
+    border: none;
+    color: var(--muted);
+
+    &:hover {
+      background-color: transparent;
+      color: var(--muted);
+    }
+  }
+
+ 
+}
+
+
+
+

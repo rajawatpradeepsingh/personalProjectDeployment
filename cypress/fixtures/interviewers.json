@@ -1,0 +1,22 @@
+[
+   {
+      "id": 1,
+      "full_name": "John Doe",
+      "location": "USA",
+      "phone_no": "+1(000) 000-0000",
+      "email": "test@test.com",
+      "interview_skills": "testing",
+      "current_project": "gap",
+      "total_experience": 3
+    },
+    {
+      "id": 2,
+      "full_name": "Jane Doe",
+      "location": "OAK",
+      "phone_no": "+1(000) 222-2222",
+      "email": "test2@test.com",
+      "interview_skills": "technical",
+      "current_project": "rcp",
+      "total_experience": 10
+    }
+]

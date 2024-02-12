@@ -1,0 +1,7 @@
+.pills-container {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: 10px 10px 0 18px;
+}

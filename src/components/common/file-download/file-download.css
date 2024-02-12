@@ -1,0 +1,28 @@
+.resume-label {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.download-resume-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 12px;
+}
+
+.download-resume-link-container.small {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-self: flex-start;
+  width: fit-content;
+}
+
+.no-file-text {
+  color: #555;
+  /* font-size: 12px; */
+}

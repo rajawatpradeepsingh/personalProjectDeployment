@@ -1,0 +1,17 @@
+.report-modal-dropdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.report-detail-select-container {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.select-fields-label {
+  font-weight: 600;
+  font-size: 16px;
+}

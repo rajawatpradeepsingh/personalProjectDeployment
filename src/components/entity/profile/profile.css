@@ -1,0 +1,76 @@
+.profile-main-form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin: 0 30px;
+}
+
+.profile-form-section {
+  margin: 0 60px 0 0;
+}
+
+.profile-editable-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /*position: relative;*/
+}
+
+.profile-edit-btn {
+  margin-top: -10px;
+  margin-left: -50px;
+  width: 48px;
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  padding: 0;
+  /*position: absolute;*/
+  left: 80%;
+  top: 25%;
+  background-color: rgba(25, 25, 112, 0);
+  transition: all 0.5s ease;
+  color: #3a8374;
+}
+
+.profile-edit-btn.wide {
+  left: 86%;
+}
+
+.profile-edit-btn:hover {
+  background-color: #4db6a1;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.profile-edit-btn.active {
+  background-color: #4db6a1;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.profile-edit-btn::before {
+  content: "\270E";
+}
+
+.profile-main-form-btns {
+  align-self: flex-start;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.password-status {
+  color: rgb(255, 30, 0);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 200;
+}
+.timeout_eye{
+  display: flex;
+}

@@ -1,0 +1,12 @@
+#tabs-container {
+   width: 100%;
+   .ant-tabs-tab.ant-tabs-tab-active {
+      // color: var(--secondary);
+      border-color: var(--secondary);
+
+      .ant-tabs-tab-btn {
+         color: var(--secondary);
+         border-color: var(--secondary);
+      }
+   }
+}

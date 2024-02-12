@@ -1,0 +1,8 @@
+{
+  "name": "newUser",
+  "pass": "newPassword",
+  "firstName": "newFirstName",
+  "lastName": "newLastName",
+  "email": "newEmail@email.com",
+  "roles": [{ "id": 2, "roleName": "Recruiter" }]
+}

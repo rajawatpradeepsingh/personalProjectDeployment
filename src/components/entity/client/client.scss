@@ -1,0 +1,15 @@
+.NumAlign{
+    text-align: right;
+}
+
+.fees{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+// .NumAlign.readonly-input-value{
+// text-align: right;
+// }
+.NumAlign:disabled{
+    color: blue;
+}

@@ -1,0 +1,162 @@
+.input-comp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.input-comp-container.small-thin {
+  margin-bottom: 0;
+}
+
+.input-main-label,
+.required {
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.input-main-label {
+  line-height: 12px;
+}
+
+.required {
+  color: var(--secondary);
+}
+
+.input-menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+}
+
+.with-btn {
+  position: relative;
+}
+
+.input {
+  border: 1px solid var(--tertiary);
+  border-radius: 8px;
+  padding: 8px;
+  width: 250px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.input.large {
+  width: 500px;
+}
+
+.input.input-menu {
+  width: 125px;
+  border-right: none;
+  height: 40px;
+  border-radius: 8px 0 0 8px;
+}
+
+.input.input-menu:disabled {
+  width: 62px;
+}
+
+.input:disabled {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: text;
+  margin: 0;
+  width: fit-content;
+}
+
+.input:focus,
+.input:active {
+  border: 2px solid var(--secondary);
+}
+
+.input.small {
+  width: 150px;
+}
+
+.input.small-thin {
+  padding: 2px;
+  padding-left: 8px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.input.x-small {
+  width: 83px;
+}
+
+.input.x-small:disabled {
+  width: 55px;
+  text-align: right;
+  padding: 0;
+}
+
+.info {
+  color: var(--tertiary);
+  font-size: 11px;
+  padding: 0 5px;
+}
+
+/* styles for disabled/readonly inputs to make them smaller */
+.readonly-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.readonly-label {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.readonly-input-value {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.readonly-input-value.empty {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+
+.inline-icon-btn {
+  position: absolute;
+  background-color: transparent;
+  right: 5px;
+  bottom: calc(50% - 20px);
+  font-size: 20px;
+}
+
+.inline-icon-label {
+  margin-left: 12px;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.inline-icon-label:hover {
+  color: var(--secondary);
+}
+
+.inline-icon-btn:hover {
+  color: #000;
+}
+
+.inline-icon-btn:disabled:hover,
+.input:disabled:focus,
+.input:disabled:active {
+  color: #000;
+  border: none;
+  cursor: text;
+}
